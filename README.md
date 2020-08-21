@@ -21,16 +21,20 @@ If you did not have Rust installed prior to running this script, make sure to ad
 
 #Initialize your WebAssembly build environment
  
-# Load settings into the current shell script if you can't use rustup command
-# If you've run this before, you don't need to run it again. But doing so is harmless.
+Load settings into the current shell script if you can't use rustup command
+If you've run this before, you don't need to run it again. But doing so is harmless.
 source ~/.cargo/env
 
-# Update Rust
+Update Rust
+
+```
 rustup update nightly
 rustup update stable
-
-# Add Wasm target
+```
+Add Wasm target
+```
 rustup target add wasm32-unknown-unknown --toolchain nightly
+```
 
 #Create a branch for your work and Compile your Substrate node
 
