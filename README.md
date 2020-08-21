@@ -3,7 +3,9 @@ Trying out substrate
 
 On MacOs run this script to set up your computer 
 
+```
 curl https://getsubstrate.io -sSf | bash -s -- --fast
+```
 
 This script installs the following:
 
@@ -17,14 +19,17 @@ If you did not have Rust installed prior to running this script, make sure to ad
 
 #Compiling Substrate
 
+```
  git clone -b v2.0.0-rc5 --depth 1 https://github.com/substrate-developer-hub/substrate-node-template
+```
 
 #Initialize your WebAssembly build environment
  
 Load settings into the current shell script if you can't use rustup command
 If you've run this before, you don't need to run it again. But doing so is harmless.
+```
 source ~/.cargo/env
-
+```
 Update Rust
 
 ```
