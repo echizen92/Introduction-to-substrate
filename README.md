@@ -43,9 +43,11 @@ rustup target add wasm32-unknown-unknown --toolchain nightly
 
 #Create a branch for your work and Compile your Substrate node
 
+```
 cd substrate-node-template/
 git checkout -b my-first-substrate-chain
 cargo build --release
+```
 
 #Front-End
 
